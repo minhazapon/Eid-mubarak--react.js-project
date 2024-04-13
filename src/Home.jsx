@@ -1,4 +1,5 @@
 import Banner from "./Banner";
+import EidInfo from "./EidInfo";
 
 
 
@@ -8,6 +9,7 @@ const Home = () => {
         <div>
 
             <Banner></Banner>
+            <EidInfo></EidInfo>
             
         </div>
     );
