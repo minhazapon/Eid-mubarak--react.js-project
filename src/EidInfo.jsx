@@ -15,12 +15,12 @@ const EidInfo = () => {
           {/* --------------------- */}
 
 
-          <div className=" flex justify-center">
+          <div className=" flex justify-center ">
 
-         <div className=" flex justify-center gap-10 "  >
+         <div className=" flex justify-center gap-10  flex-col md:flex-row"  >
       
 
-         <div className=" flex justify-center items-center gap-10 mt-10">
+         <div className=" flex justify-center items-center gap-10 mt-10  flex-col md:flex-row">
 
           <div className=" border-[1px]  border-violet-600 p-5 rounded-3xl bg-violet-100">
               <img className=" h-[100px]" src="https://i.ibb.co/SdQ3ZBc/kurta.png" alt="" />
@@ -40,7 +40,7 @@ const EidInfo = () => {
           </div>
 
 
-          <div className=" flex justify-center items-center gap-10 mt-10"   >
+          <div className=" flex justify-center items-center gap-10 mt-10  flex-col md:flex-row"   >
                  
           <div  className=" border-[1px]  border-violet-600 p-5 rounded-3xl bg-violet-100"  >
               <img className=" h-[100px]" src="https://i.ibb.co/vPN5Qfy/salah.png" alt="" />

@@ -11,7 +11,8 @@ import Root from './Root';
 import Home from './Home';
 import Namaz from './Namaz';
 import Festivals from './Festivals';
-import Foods from './Foods';
+import Salami from './Salami';
+
 
 const router = createBrowserRouter([
   {
@@ -31,9 +32,10 @@ const router = createBrowserRouter([
         element:  <Festivals></Festivals> ,
       },
       {
-        path: "/foods",
-        element: <Foods></Foods>  ,
+        path: "/salami",
+        element:  <Salami></Salami> ,
       },
+     
     ],
   },
 ]);
